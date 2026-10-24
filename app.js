@@ -9,7 +9,7 @@ const cameraGallery=$('#camera-gallery'),cameraGalleryTrack=$('#camera-gallery-t
 const noteGallery=$('#note-gallery'),noteDrawStrip=$('#note-draw-strip'),noteStripCoin=$('#note-strip-coin'),noteStripKnob=$('.note-strip-knob'),noteStripSlot=$('.note-strip-slot');
 const modelGallery=$('#model-gallery');
 const capsuleName=()=>({tv:'电视机',camera:'相机',note:'便利贴',robot:'机器人'}[currentCapsule]);
-const chapterIds=["preparation", "production", "postproduction", "film", "epic-puppy", "epic-master", "epic-kitten", "epic-hoot", "epic-simone", "dino-bridge", "dino-grapes"];
+const chapterIds=["preparation", "production", "postproduction", "film", "epic-puppy", "epic-master", "epic-kitten", "epic-hoot", "epic-simone", "dino-night", "dino-bridge", "dino-grapes"];
 let youtubeFrame=null;
 const filmHost=$('#film-player'),filmStatus=$('#film-status');
 let filmFrame=null;
